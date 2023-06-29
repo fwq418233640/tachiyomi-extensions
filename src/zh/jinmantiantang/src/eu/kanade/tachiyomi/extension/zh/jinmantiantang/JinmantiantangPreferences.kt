@@ -78,19 +78,19 @@ internal const val MAINSITE_RATELIMIT_PERIOD_DEFAULT = 3.toString()
 private const val USE_MIRROR_URL_PREF = "useMirrorWebsitePreference"
 
 private val SITE_ENTRIES_ARRAY_DESCRIPTION get() = arrayOf(
+    "国内站点1",
+    "国内站点2",
+    "国内站点3",
     "主站",
-    "海外分流",
-    "东南亚线路1",
-    "东南亚线路2",
 )
 
 // List is based on https://jmcomic1.bet/
 // Please also update AndroidManifest
 private val SITE_ENTRIES_ARRAY get() = arrayOf(
-    "18comic.vip",
-    "18comic.org",
-    "jmcomic.me",
-    "jmcomic1.me",
+    "jm-comic.art",
+    "jm-comic3.org",
+    "jm-comic1.org",
+    "18comic.ogr",
 )
 
 private const val DEFAULT_LIST = "jm-comic2.org,jm-comic3.org,jm-comic1.org"
